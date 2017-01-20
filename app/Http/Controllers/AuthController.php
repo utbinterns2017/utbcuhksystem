@@ -41,6 +41,7 @@ class AuthController extends Controller
 
 			$inpUsername = $request->username;
 			$inpPw = $request->password;
+			$getRem = $request->input('remMe');
 			//$inpPw = '[{"password":"'.$request->password.'"}]';
 
 			/*$data = new UserModel;

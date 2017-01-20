@@ -20,7 +20,7 @@
 		<div class="form-group">
 			<div class="col-md-offset-2 col-md-10">
 				<div class="checkbox">
-					<label><input type="checkbox">Remember me</label>
+					<label><input type="checkbox" name="remMe">Remember me</label>
 				</div>
 			</div>
 		</div>
@@ -30,6 +30,8 @@
 			</div>
 		</div>		
 	</form>
+
+	
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

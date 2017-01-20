@@ -21,7 +21,7 @@
 		<div class="form-group">
 			<div class="col-md-offset-2 col-md-10">
 				<div class="checkbox">
-					<label><input type="checkbox">Remember me</label>
+					<label><input type="checkbox" name="remMe">Remember me</label>
 				</div>
 			</div>
 		</div>
@@ -31,4 +31,6 @@
 			</div>
 		</div>		
 	</form>
+
+	
 @stop
