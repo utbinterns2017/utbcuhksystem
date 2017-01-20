@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-/*    public function show(){
-    	$dataArr = UserModel::all();
+    public function show(Request $request){
+    	$user = $request->session()->get('username', 'no data');
 
-    	return view('common.home', compact('dataArr'));
-    }*/
+    	return view('common.home')->with('username', $user);
+    }
 
     public function logout(Request $request){
     	$request->session()->flush();

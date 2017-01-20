@@ -27,7 +27,7 @@ Route::get('registration', function(){
 	return view('common.home');
 });*/
 Route::group(['middleware'=>'checkuser'], function(){
-	Route::get('home/{$username}', 'HomeController@show');
+	Route::get('home', 'HomeController@show');
 });
 
 

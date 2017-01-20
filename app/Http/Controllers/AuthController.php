@@ -58,7 +58,8 @@ class AuthController extends Controller
 				} else {
 					$request->session()->set('username', $inpUsername);
 					$name = $inpUsername;
-					return view('common.home')->with('username',$inpUsername);
+					//return view('common.home')->with('username',$inpUsername);
+					return redirect('home');
 				}
 			} else{
 				return redirect('usernotfound');

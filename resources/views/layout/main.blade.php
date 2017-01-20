@@ -8,6 +8,7 @@
 	@yield('script')
 </head>
 <body>
+	@include('heading')
 	@yield('content')
 
 </body>

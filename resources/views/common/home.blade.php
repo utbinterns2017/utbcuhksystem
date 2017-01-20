@@ -1,5 +1,5 @@
 @extends('layout.main')
-<div class="navbar">
+<div class="navbar" style="margin-bottom: 0 !important">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -13,11 +13,8 @@
 				<li><a href="/">Contact Us</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				{{-- @foreach($dataArr as $data)
-					<li><a href="/"><span class="glyphicon glyphicon-user"></span> {{ $data->username}}</a></li>
-				@endforeach --}}
 				<li><a href="/"><span class="glyphicon glyphicon-user"></span> {!!$username!!}</a></li>
-				<li><a href="logout">Logout</a></li>
+				<li><a href="logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
    			</ul>
 		</div>
 	</nav>
