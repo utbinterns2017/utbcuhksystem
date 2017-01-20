@@ -1,6 +1,6 @@
 @extends('layout.main')
 <link rel="stylesheet" href="/css/style.css">
-<div class="navbar" style="margin-bottom: 0 !important" id="myNav">
+<div class="navbar" style="margin-bottom: 0 !important" id="myNav" >
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -96,12 +96,12 @@
   <p>UTB-CUHK Interns | 2017</p> 
 </footer>
 
-<script>
+{{-- <script>
 $(document).ready(function(){
     // Initialize Tooltip
     $('[data-toggle="tooltip"]').tooltip(); 
 })
-</script>
+</script> --}}
 
 
 @stop
